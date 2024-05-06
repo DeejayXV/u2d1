@@ -25,7 +25,7 @@ REGOLE
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-const myName = "John"
+const myName = "John";
 console.log ("il mio nome è" + " " + myName)
 
 /* ESERCIZIO 3
@@ -68,3 +68,6 @@ console.log ("la differenza tra x e y è", x - y)
 const name1 = "john";
 const name2 = "John";
 console.log ("la variabile name1 e name2 sono uguali?", name1 === name2) ? "vero" : "falso"
+// EXTRA:
+const lowerCaseName2 = name2.toLowerCase();
+console.log ("la variabile name1 e lowerCaseName2 sono uguali?", name1 === lowerCaseName2) ? "vero" : "falso"
